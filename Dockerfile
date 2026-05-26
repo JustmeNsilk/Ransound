@@ -3,6 +3,8 @@ WORKDIR /ransound-app
 
 COPY . .
 
-RUN apt install
+RUN useradd app
+RUN apt install python3 && apt install pip3 && python3 -m venv .
+RUN
 
-RUN java -jar worker-jar-with-dependencies.jar
+USER app
