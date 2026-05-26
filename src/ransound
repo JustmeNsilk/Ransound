@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+#file: get_file.py
+#file: get_file.py
+
+import os
+import random
+from get_file import *
+from macro import *
+
+def main() -> int:
+    array = None
+    get_file(array)
+    return SUCCESS
+
+if __name__ == "__main__":
+    exit(main())

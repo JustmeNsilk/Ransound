@@ -1,0 +1,3 @@
+FAILURE = -1
+ERROR = 84
+SUCCESS = 0
